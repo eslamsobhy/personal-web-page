@@ -1,0 +1,591 @@
+/* Start Main Rulez-----------------------------------------------------------------------*/
+body{
+	background-color: #fff ;
+	margin: 0 ;
+	padding: 0 ;
+	font-family: arial ;
+}
+
+.container{
+	width: 1000px ;
+	margin: auto ; 
+}
+
+/* End Main Rulez---------------------------------------------------------------------------*/
+
+
+
+
+
+/* Start Header-----------------------------------------------------------------------------*/
+
+.header .slider{
+	background-image: url(images/wc1740106.jpg);
+	background-size: cover ;
+	height: 500px ;
+	perspective: 600px ;
+}
+
+.header .slider .intro {
+	color: #FFFFFF ;
+	text-align: center ;
+	padding-top: 200px ;
+	padding-left: 450px ;
+	transition: transform 1s ;
+}
+
+.header .slider .intro:hover{
+	transform: translate3d(-10px, -20px, 50px);
+}
+
+.header .slider .intro h2{
+	margin: 0 ;
+	font-size: 35px ;
+	border-top: 2px solid #FFF ;
+	border-bottom: 2px solid #FFF ;
+	padding: 5px 0 ;
+	user-select: none ;
+}
+
+.header .slider .intro button{
+	background : none;
+	color: #FFF ;
+	margin-top: 30px ;
+	font-size: 20px ;
+	border : 2px solid #FFF ;
+	font-weight: bold ;
+	padding: 10px 30px ;
+	cursor: pointer;
+}
+
+
+.header .navbar{
+	background-color: #252f31 ;
+	color: #FFF ;
+	overflow: hidden;
+}
+
+.header .navbar .nj{
+	background-color: rgba(255,255,255,.2) ;
+	font-size: 20px ;
+	font-weight: bold;
+	float: left ;
+	width: 40px ;
+	height: 40px ;
+	margin: 10px ;
+	border-radius: 7px ;
+}
+
+.header .navbar .nj h2{
+	margin: 0 ;
+	padding: 0 ;
+	padding-top: 5px ;
+	padding-left: 1px ;
+}
+
+.header .navbar h2{
+	float: left ;
+	text-transform: uppercase;
+}
+
+.header .navbar h2 span{
+	color: #2ecc71 ;
+}
+
+.header .navbar ul{
+	list-style: none ;
+	padding-left: 0 ;
+	/*overflow: hidden ;*/
+	float: right ;
+}
+
+.header .navbar ul li{
+	float: left ;
+	padding: 10px ;
+}
+
+.header .navbar ul li a{
+	color: #FFF ;
+	text-decoration: none ;
+}
+
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+	color: #30b576 ; 
+}
+
+
+/* End Header---------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/* Start Features ----------------------------------------------------------------*/
+
+.features {
+	overflow: hidden ;
+	padding-top: 30px ;
+	padding-bottom: 40px ;
+}
+
+.features .feature{
+	float: left ;
+	width: 31.3333% ;
+	height: 150px ;
+	background-color: #FFF ; /*layout only*/
+	padding: 10px ;
+}
+
+.features .feature h2{
+	text-transform: uppercase;
+	color: #444 ;
+}
+
+.features .feature p{
+	line-height: 1.6 ;
+	color: #888 ;
+	text-align: justify;
+}
+
+
+/* End Features ------------------------------------------------------------------*/
+
+
+
+
+
+/* Start About Me---------------------------------------------------------------- */
+
+.aboutme {
+	background-color: #f2f2f2 ;
+	overflow: hidden ;
+}
+
+.aboutme .image{
+	float: left ;
+	width: 35% ;
+	height: 510px
+}
+
+.aboutme .image img{
+	width: 100% ;
+	height: 100%
+}
+
+.aboutme .info{
+	float: left;
+	width: 65% ;
+}
+
+.aboutme .info h2{
+	text-transform: uppercase;
+	margin:  40px 0 20px 40px ;
+	color: #444 ;
+}
+
+
+.aboutme .info > p{
+	margin: 0 0 10px 40px ;
+}
+
+.aboutme .info p{
+	line-height: 1.6 ;
+	color: #666 ;
+}
+
+.aboutme .info > p:last-of-type{
+	margin-top: 20px;
+}
+
+.aboutme .info .hobbies h3{
+	color: #444 ;
+	text-transform: uppercase;
+}
+
+.aboutme .info .hobbies{
+	margin: 20px 0 0 40px ;
+	overflow: hidden ; 
+}
+
+.aboutme .info .hobbies > div {
+	float: left;
+	width: 50% ; 
+	min-height: 100px ;
+}
+
+
+/* End About Me -------------------------------------------------------------------*/
+
+
+
+
+/* Start Skills--------------------------------------------------------------------*/
+.my-skills{
+	padding-top: 30px ;
+	padding-bottom: 60px; 
+	overflow: hidden ;
+}
+
+.my-skills .skills ,
+.my-skills .stat {
+	width: 50% ;
+	float: left;
+}
+
+.my-skills .skills h2{
+	text-transform: uppercase;
+	margin :25px 0 20px 0;
+	color: #444 ;
+}
+
+.my-skills .skills p{
+	margin: 0 0 10px 0 ;
+	line-height: 1.6 ;
+	color: #666
+}
+
+.my-skills .skills p:last-of-type{
+	margin-top: 20px ;
+}
+
+.my-skills .skills button{
+	background: none ;
+	border :2px solid #2dcc70;
+	padding: 10px 20px ;
+	color: #2dcc70 ;
+	margin-top: 20px ;
+}
+
+.my-skills .stat .technique{
+	margin-left: 45px ;
+}
+
+.my-skills .stat .technique h3{
+	color: #444 ;
+	text-transform: uppercase;
+}
+
+.my-skills .stat .technique div{
+	background-color: #F2F2F2 ;
+	height: 20px ;
+}
+
+.my-skills .stat .technique div span{
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .2) ;
+	display: block;
+	background-color: #2dcc70 ;
+	height: 100% ;
+	line-height: 22px;
+	text-align:  right;
+	color: #FFF ;
+	font-weight: bold ;
+}
+
+/* End Skills----------------------------------------------------------------------*/
+
+
+
+/* start Resume -------------------------------------------------------------------*/
+.resume{
+	background-color: #f2f2f2 ;
+	text-align: center;
+	padding-bottom: 70px ;
+	padding-top: 50px ;
+}
+
+.resume h2{
+	text-transform: uppercase;
+	color: #444 ;
+}
+
+.resume p{
+	color: #555 ;
+	line-height: 1.6 ;
+}
+
+.resume button{
+	background: none ;
+	border :2px solid #2dcc70;
+	padding: 10px 20px ;
+	color: #2dcc70 ;
+	margin-top: 20px ;
+}
+/* End Resume -------------------------------------------------------------------*/
+
+
+
+
+/* Start My Education--------------------------------------------------------------*/
+.my-education{
+	overflow: hidden;
+	padding-top: 3px ;
+	padding-bottom :30px;
+}
+
+.my-education .education , 
+.my-education .diploma{
+	width: 47% ;
+	float: left ;
+	padding: 10px ;
+}
+
+.my-education .diploma{
+	margin-top: 58px ;
+}
+
+.my-education .diploma .graphic h3{
+	color: #444 ;
+	text-transform: uppercase;
+}
+
+.my-education .diploma .graphic p{
+	color: #666 ;
+	line-height: 1.6 ;
+}
+
+.my-education .diploma .graphic span{
+	background-color: #2dcc70 ;
+	color: #FFF ;
+	padding: 3px 6px ;
+}
+
+.my-education .diploma .graphic hr{
+	margin:20px 0;
+	background-color: #999 ;
+	height: 1px ;
+	border:0;
+	opacity: .5
+}
+
+.my-education .diploma .cit h3{
+	color: #444 ;
+	text-transform: uppercase;
+}
+
+.my-education .diploma .cit p{
+	color: #666 ;
+	line-height: 1.6 ;
+}
+
+.my-education .diploma .cit span{
+	background-color: #2dcc70 ;
+	color: #FFF ;
+	padding: 3px 6px ;
+}
+
+.my-education .diploma .cit hr{
+	margin:20px 0;
+	background-color: #999 ;
+	height: 1px ;
+	border:0;
+	opacity: .5
+}
+
+.my-education .education h2{
+	text-transform: uppercase;
+	margin :25px 0 20px 0;
+	color: #444 ;
+}
+
+.my-education .education p{
+	margin: 0 0 10px 0 ;
+	line-height: 1.6 ;
+	color: #666
+}
+/* End My Education--------------------------------------------------------------*/
+
+
+
+
+/*Start Testemonials--------------------------------------------------------------*/
+.testemonials{
+	background-color: #F2F2F2 ;
+	text-align: center ;
+	padding-bottom: 30px ;
+	padding-top: 40px ;
+}
+
+.testemonials q{
+	color: #666 ;
+	line-height: 1.6 ;
+	font-style: italic;
+}
+
+.testemonials h4{
+	color: #444 ;
+}
+
+.testemonials span{
+	display: inline-block;
+	border-radius: 50% ;
+	width: 8px ;
+	height: 8px ;
+	margin: 4px ;
+	border:1px solid #2dcc70;
+	background: none ;
+	cursor: pointer;
+}
+
+.testemonials span:hover{
+	background-color: #2dcc70 ;	
+}
+
+.testemonials span.active{
+	background-color: #2dcc70 ;
+}
+
+/*End Testemonials--------------------------------------------------------------*/
+
+
+
+
+
+/*Start Portfolio-----------------------------------------------------------------*/
+
+.portfolio{
+	text-align: center ;
+	padding-bottom: 40px ;
+	padding-top: 40px ;
+}
+
+.portfolio h2{
+	color: #444 ;
+	text-transform: uppercase;
+}
+
+.portfolio p{
+	color:#666;
+	line-height: 1.6 ;
+	margin-bottom: 70px ;
+}
+
+.portfolio .work{
+	overflow: hidden;
+}
+
+.portfolio .work > div{
+	float: left;
+	width: 33.3333% ;
+	margin-bottom: 10px ;
+}
+
+.portfolio .work > div img{
+	width: 92% ;
+	margin: 10px ;
+	padding: 3px ;
+	background-color: #fff ;
+	border:1px solid #ccc;
+}
+
+.portfolio .work img:hover{
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .2) ;
+	cursor: pointer;
+}
+
+/*End Portfolio-----------------------------------------------------------------*/
+
+
+
+
+
+
+/*Start Contact Me  -------------------------------------------------------------*/
+.contact{
+	background-color: #252F31 ;
+	overflow: hidden ;
+	padding-top: 50px ;
+	padding-bottom: 70px ;
+}
+
+.contact .info{
+	width: 50% ;
+	margin-right: 5% ;
+	float: left;
+}
+
+.contact .info h2{
+	color: #FFF ;
+}
+
+.contact .info p{
+	color: #6A6E71 ;
+	line-height: 1.6 ;
+}
+
+.contact .info p strong{
+	color:#D1D6DA;
+}
+
+.conatct .form{
+	width: 45% ;
+	float: left ;
+}
+
+.contact .form label{
+	display: block;
+	margin: 20px 0 ;
+	color: #D1D6DA;
+}
+
+.contact .form input[type="text"]{
+	background-color: #4B5557 ;
+	color: #FFF ;
+	padding: 10px ;
+	border:0 ;
+	width: 400px ; ;
+}
+
+.contact .form textarea{
+	background-color: #4B5557 ;
+	color: #FFF ;
+	padding: 10px ;
+	border:0 ;
+	width: 400px ; 
+	height: 170px ;
+}
+
+.contact .form button{
+	margin-left: 550px ;
+	margin-top: 20px ;
+	padding: 10px 25px ;
+	color: #D1D6DA ;
+	background-color: #191E22 ;
+	border:0;
+}
+
+/*End Contact Me  -------------------------------------------------------------*/
+
+
+
+/* Start Foooooooooooooooooterrrrrrrrrrrrr-------------------------------------*/
+.footer{
+	background-color: #191E22 ;
+	color: #6A6E71 ;
+	text-align:center;
+	padding: 20px 0 ; 
+}
+/* End Foooooooooooooooooterrrrrrrrrrrrr-------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
